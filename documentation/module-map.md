@@ -35,9 +35,4 @@
 
 ## Export generation
 
-- `docx-generator.js`: DOCX orchestration and file save
-- `docx-header-tables.js`: DOCX header section builders
-- `docx-summary-table.js`: DOCX summary section builder
-- `docx-content-tables.js`: DOCX incident/narrative/impact section builders
-- `docx-footer-tables.js`: DOCX footer/evidence section builders
 - `json-generator.js`: JSON schema export and download

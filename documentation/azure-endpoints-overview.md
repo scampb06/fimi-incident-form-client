@@ -7,9 +7,9 @@ Source basis:
 - Private repository `fimi-incident-form-server` README and `documentation/` files
 - Client integration points in `config.js`, `urls-management.js`, and `pdf-ai-summarizer.js`
 
-Default host configured in this client:
+Host format configured in this client:
 
-- `https://fimi-incident-form-server-pt.azurewebsites.net`
+- `https://<YOUR_AZURE_APP_NAME_FROM_ADMIN>.azurewebsites.net`
 
 For fast issue triage by feature, see the support matrix in [troubleshooting.md](troubleshooting.md#support-matrix-feature--required-backend).
 

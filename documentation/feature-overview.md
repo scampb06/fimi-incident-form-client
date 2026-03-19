@@ -48,7 +48,6 @@ Users can:
 
 The client provides:
 
-- DOCX export (`docx-generator.js` + table builder modules)
 - JSON export (`json-generator.js`) using a structured incident schema
 
 These outputs are designed for analyst workflow handoff and downstream processing.

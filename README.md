@@ -1,6 +1,6 @@
 # FIMI Incident Report Generator (Client)
 
-Client-side web application for creating structured FIMI incident reports, enriching URL evidence workflows, and exporting reports to DOCX/JSON.
+Client-side web application for creating structured FIMI incident reports, enriching URL evidence workflows, and exporting reports to JSON.
 
 This repository is the browser-based front end. Server-side Azure endpoints are hosted separately in a private repository and are summarized in [documentation/azure-endpoints-overview.md](documentation/azure-endpoints-overview.md).
 
@@ -10,22 +10,22 @@ This repository is the browser-based front end. Server-side Azure endpoints are 
 - Supports country selection and DISARM objective/TTP selection.
 - Helps process evidence URLs from Google Sheets.
 - Integrates optional AI-assisted text generation from PDF reports.
-- Exports completed reports as DOCX and JSON.
+- Exports completed reports as JSON.
 
 ## Quick start
 
 1. Clone this repository.
 2. Serve the folder with a local static web server (recommended) or open `index.html` directly.
-3. Adjust configuration in `config.js` as needed (especially Azure app name/base URL).
+3. Adjust configuration in `config.js` as needed (especially Azure app name/base URL and Google service account email).
 4. Open the app and complete form sections.
 
 ## Configuration
 
 Primary runtime settings are in `config.js`:
 
-- `window.AZURE_APP_NAME` (default: `fimi-incident-form-server-pt`)
-- `window.AZURE_BASE_URL` (derived: `https://<app-name>.azurewebsites.net`)
-- `window.GSHEETS_SERVICE_ACCOUNT_EMAIL`
+- `window.AZURE_APP_NAME` — set this to `<YOUR_AZURE_APP_NAME_FROM_ADMIN>` (provided by your system administrator).
+- `window.AZURE_BASE_URL` — set to `https://<YOUR_AZURE_APP_NAME_FROM_ADMIN>.azurewebsites.net` (or the explicit API base URL provided by your system administrator).
+- `window.GSHEETS_SERVICE_ACCOUNT_EMAIL` — the Google service account email used by the server to update Google Sheets (domains, channels, archive URLs, etc.); obtain this from your system administrator.
 
 The client calls Azure endpoints using `window.AZURE_BASE_URL` in modules such as:
 
@@ -35,7 +35,7 @@ The client calls Azure endpoints using `window.AZURE_BASE_URL` in modules such a
 ## Main feature docs
 
 - [documentation/feature-overview.md](documentation/feature-overview.md) — End-to-end product features.
-- [documentation/report-generation.md](documentation/report-generation.md) — Form completion and DOCX/JSON export behavior.
+- [documentation/report-generation.md](documentation/report-generation.md) — Form completion and JSON export behavior.
 - [documentation/url-and-archiving-workflow.md](documentation/url-and-archiving-workflow.md) — Trusted/malicious URL flows, Google Sheets integration, and archiving options.
 - [documentation/azure-endpoints-overview.md](documentation/azure-endpoints-overview.md) — High-level overview of Azure endpoints used by the client.
 - [documentation/module-map.md](documentation/module-map.md) — File-by-file map of key client modules.
@@ -43,9 +43,9 @@ The client calls Azure endpoints using `window.AZURE_BASE_URL` in modules such a
 
 ## Azure integration summary
 
-Current default endpoint host from this repo:
+Endpoint host format used by this client:
 
-- `https://fimi-incident-form-server-pt.azurewebsites.net`
+- `https://<YOUR_AZURE_APP_NAME_FROM_ADMIN>.azurewebsites.net`
 
 Key endpoint groups used by the client:
 
@@ -59,5 +59,5 @@ See [documentation/azure-endpoints-overview.md](documentation/azure-endpoints-ov
 ## Notes
 
 - The Azure endpoint server repository is private; this documentation intentionally stays at a high-level integration view.
-- Some external dependencies are loaded from CDN (e.g., PDF.js, docx, FileSaver, html2pdf).
+- Some external dependencies are loaded from CDN (e.g., PDF.js, FileSaver, html2pdf).
 - DISARM content is integrated using local assets and/or remote framework references as available.

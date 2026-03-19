@@ -14,13 +14,13 @@ This guide covers common issues when using the FIMI Incident Report Generator cl
 
 - Confirm the Google Sheet is shared with the configured service account email.
 - Confirm the service account has **Editor** access for extract/archive operations.
-- Confirm the service account email in `config.js` matches the backend configuration expectation.
+- Confirm `window.GSHEETS_SERVICE_ACCOUNT_EMAIL` in `config.js` is the Google service account email used by the server for sheet updates (domains, channels, archive URLs, etc.).
 
 ### Fix
 
 1. Open the Google Sheet.
 2. Select **Share**.
-3. Add the service account email from `window.GSHEETS_SERVICE_ACCOUNT_EMAIL`.
+3. Add the service account email from `window.GSHEETS_SERVICE_ACCOUNT_EMAIL` (value provided by your system administrator).
 4. Grant **Editor** (or at least **Viewer** for read-only checks).
 
 ## 2) Azure endpoint not reachable
@@ -33,13 +33,13 @@ This guide covers common issues when using the FIMI Incident Report Generator cl
 
 ### Checks
 
-- Verify `window.AZURE_APP_NAME` and `window.AZURE_BASE_URL` in `config.js`.
+- Verify `window.AZURE_APP_NAME` and `window.AZURE_BASE_URL` in `config.js` match values provided by your system administrator.
 - Test the base URL in browser: `https://<app-name>.azurewebsites.net`.
 - Confirm the backend app is running and deployed.
 
 ### Fix
 
-- Correct `window.AZURE_APP_NAME` or explicitly set `window.AZURE_BASE_URL`.
+- Set `window.AZURE_APP_NAME` to `<YOUR_AZURE_APP_NAME_FROM_ADMIN>` or explicitly set `window.AZURE_BASE_URL` to the API host provided by your system administrator.
 - Ensure backend deployment/environment is healthy.
 - Ensure backend CORS settings allow your client origin.
 
@@ -101,7 +101,7 @@ This guide covers common issues when using the FIMI Incident Report Generator cl
 - Reduce URL batch size in sheet when jobs are very large.
 - Validate backend storage/container configuration if failures repeat.
 
-## 6) DOCX/JSON export missing data
+## 6) JSON export missing data
 
 ### Symptoms
 

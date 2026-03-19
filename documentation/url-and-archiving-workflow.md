@@ -60,8 +60,8 @@ These endpoints help validate sheet access and inspect dataset size/content befo
 
 ## Azure host used by this client
 
-By default (from `config.js`):
+Configured in `config.js` (value provided by your system administrator):
 
-- `https://fimi-incident-form-server-pt.azurewebsites.net`
+- `https://<YOUR_AZURE_APP_NAME_FROM_ADMIN>.azurewebsites.net`
 
 All endpoint paths above are called relative to this base URL unless overridden in configuration.
