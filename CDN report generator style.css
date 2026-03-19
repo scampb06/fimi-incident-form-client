@@ -1,0 +1,208 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 11pt;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+.section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.section h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+input[type="text"], input[type="date"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+/* Add this to inherit font from body */
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+}
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form-row label {
+    width: 110px;
+    min-width: 110px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.form-row input {
+    width: 700px;
+    min-width: 300px;
+}
+button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #2980b9;
+}
+.ttp-entry, .objective-entry, .observable-entry, .sub-narrative-entry, .recommendation-entry {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.add-button {
+    background-color: #2ecc71;
+}
+.add-button:hover {
+    background-color: #27ae60;
+}
+.remove-button {
+    background-color: #e74c3c;
+}
+.remove-button:hover {
+    background-color: #c0392b;
+}
+.tabs {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 0 0;
+}
+.tabs button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: #555;
+    border-radius: 0;
+    margin: 0;
+}
+.tabs button:hover {
+    background-color: #ddd;
+}
+.tabs button.active {
+    background-color: #3498db;
+    color: white;
+}
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+}
+.preview {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+.help-text {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+.objectives-help-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.objectives-help-row span {
+    flex: 1;
+}
+.required:after {
+    content: " *";
+    color: red;
+}
+#preview-content {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 11pt;
+}
+.preview-template {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 11pt;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+}
+.preview-template table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 0;
+    border: none;
+}
+.preview-template td {
+    vertical-align: top;
+    padding: 10px;
+    color: black;
+    border: none;
+}
+.header-row {
+    background-color: #4472C4;
+    color: white;
+    font-weight: bold;
+}
+.evidence-logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-top: 5px;
+}
+#pdf-output {
+    display: none;
+}

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISARM Technique Selector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+            box-sizing: border-box;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+        
+        .selected {
+            background-color: #e8f5e8 !important;
+            border-color: #28a745 !important;
+        }
+        
+        .btn {
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 15px;
+            margin-right: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        
+        .select-btn {
+            background: #28a745;
+            color: white;
+        }
+        
+        .select-btn:hover {
+            background: #218838;
+        }
+        
+        .select-btn:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+        
+        .clear-btn {
+            background: #dc3545;
+            color: white;
+        }
+        
+        .clear-btn:hover {
+            background: #c82333;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-top: 15px;
+        }
+        
+        .info {
+            background: #e8f4f8;
+            border: 1px solid #bee5eb;
+            border-radius: 4px;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        
+        .error {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+            border-radius: 4px;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        
+        .loading {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            margin-top: 20px;
+        }
+        
+        /* Style for datalist dropdown appearance */
+        datalist {
+            position: absolute;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            max-height: 200px;
+            overflow-y: auto;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DISARM Technique Selector</h1>
+        
+        <form id="techniqueForm">
+            <div class="form-group">
+                <label for="techniqueId">Technique ID:</label>
+                <input 
+                    type="text" 
+                    id="techniqueId" 
+                    name="techniqueId" 
+                    list="techniqueIdList"
+                    placeholder="Start typing technique ID (e.g., T0001, T0086.001)..."
+                    autocomplete="off"
+                >
+                <datalist id="techniqueIdList">
+                    <!-- Options will be populated dynamically -->
+                </datalist>
+            </div>
+            
+            <div class="form-group">
+                <label for="techniqueName">Technique Name:</label>
+                <input 
+                    type="text" 
+                    id="techniqueName" 
+                    name="techniqueName" 
+                    list="techniqueNameList"
+                    placeholder="Start typing technique name (e.g., Develop Memes)..."
+                    autocomplete="off"
+                >
+                <datalist id="techniqueNameList">
+                    <!-- Options will be populated dynamically -->
+                </datalist>
+            </div>
+            
+            <div class="button-group">
+                <button type="submit" class="btn select-btn" id="selectBtn" disabled>Select Technique</button>
+                <button type="button" class="btn clear-btn" onclick="clearForm()">Clear Form</button>
+            </div>
+        </form>
+        
+        <div id="status" class="loading">Loading techniques...</div>
+    </div>
+
+    <script>
+        let techniques = [];
+        let techniqueIdMap = new Map(); // Map ID to technique object
+        let techniqueNameMap = new Map(); // Map name to technique object
+        
+        // Load techniques from JSON file
+        async function loadTechniques() {
+            try {
+                const response = await fetch('disarm-techniques.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                techniques = await response.json();
+                
+                // Create lookup maps
+                techniques.forEach(technique => {
+                    techniqueIdMap.set(technique.id, technique);
+                    techniqueNameMap.set(technique.name, technique);
+                });
+                
+                // Populate datalists
+                populateDataLists();
+                
+                document.getElementById('status').innerHTML = 
+                    `<div class="info">✓ Loaded ${techniques.length} DISARM techniques. Start typing in either field to search.</div>`;
+                
+            } catch (error) {
+                console.error('Error loading techniques:', error);
+                document.getElementById('status').innerHTML = 
+                    `<div class="error">❌ Error loading techniques: ${error.message}<br><br>
+                    Make sure 'disarm-techniques.json' exists in the same directory as this HTML file.<br>
+                    You can generate it using the technique-extractor.html tool.</div>`;
+            }
+        }
+        
+        // Populate datalist elements with all techniques
+        function populateDataLists() {
+            const idDatalist = document.getElementById('techniqueIdList');
+            const nameDatalist = document.getElementById('techniqueNameList');
+            
+            // Use DocumentFragment for better performance
+            const idFragment = document.createDocumentFragment();
+            const nameFragment = document.createDocumentFragment();
+            
+            techniques.forEach(technique => {
+                // Create option for ID datalist
+                const idOption = document.createElement('option');
+                idOption.value = technique.id;
+                idOption.textContent = `${technique.id} - ${technique.name}`;
+                idFragment.appendChild(idOption);
+                
+                // Create option for name datalist
+                const nameOption = document.createElement('option');
+                nameOption.value = technique.name;
+                nameOption.textContent = `${technique.name} (${technique.id})`;
+                nameFragment.appendChild(nameOption);
+            });
+            
+            // Append fragments to datalists
+            idDatalist.appendChild(idFragment);
+            nameDatalist.appendChild(nameFragment);
+        }
+        
+        // Handle technique ID input changes
+        document.getElementById('techniqueId').addEventListener('input', function(e) {
+            const selectedId = e.target.value.trim();
+            const techniqueNameField = document.getElementById('techniqueName');
+            
+            // Clear previous selection styling
+            e.target.classList.remove('selected');
+            techniqueNameField.classList.remove('selected');
+            
+            if (selectedId && techniqueIdMap.has(selectedId)) {
+                const technique = techniqueIdMap.get(selectedId);
+                techniqueNameField.value = technique.name;
+                
+                // Add selection styling
+                e.target.classList.add('selected');
+                techniqueNameField.classList.add('selected');
+                
+                // Update status
+                document.getElementById('status').innerHTML = 
+                    `<div class="info">✓ Selected: <strong>${technique.id}</strong> - ${technique.name}</div>`;
+            } else {
+                // Clear name field if ID doesn't match exactly
+                if (selectedId && !isPartialMatch(selectedId, 'id')) {
+                    techniqueNameField.value = '';
+                }
+            }
+            
+            // Update button state
+            updateSelectButtonState();
+        });
+        
+        // Handle technique name input changes
+        document.getElementById('techniqueName').addEventListener('input', function(e) {
+            const selectedName = e.target.value.trim();
+            const techniqueIdField = document.getElementById('techniqueId');
+            
+            // Clear previous selection styling
+            e.target.classList.remove('selected');
+            techniqueIdField.classList.remove('selected');
+            
+            if (selectedName && techniqueNameMap.has(selectedName)) {
+                const technique = techniqueNameMap.get(selectedName);
+                techniqueIdField.value = technique.id;
+                
+                // Add selection styling
+                e.target.classList.add('selected');
+                techniqueIdField.classList.add('selected');
+                
+                // Update status
+                document.getElementById('status').innerHTML = 
+                    `<div class="info">✓ Selected: <strong>${technique.id}</strong> - ${technique.name}</div>`;
+            } else {
+                // Clear ID field if name doesn't match exactly
+                if (selectedName && !isPartialMatch(selectedName, 'name')) {
+                    techniqueIdField.value = '';
+                }
+            }
+            
+            // Update button state
+            updateSelectButtonState();
+        });
+        
+        // Check if input is a partial match (user is still typing)
+        function isPartialMatch(input, type) {
+            if (type === 'id') {
+                return techniques.some(t => t.id.toLowerCase().startsWith(input.toLowerCase()));
+            } else {
+                return techniques.some(t => t.name.toLowerCase().includes(input.toLowerCase()));
+            }
+        }
+        
+        // Update Select button state based on current selection
+        function updateSelectButtonState() {
+            const selectBtn = document.getElementById('selectBtn');
+            const id = document.getElementById('techniqueId').value.trim();
+            const name = document.getElementById('techniqueName').value.trim();
+            
+            // Enable button only if both ID and name are filled and match a valid technique
+            const isValidSelection = id && name && techniqueIdMap.has(id) && techniqueIdMap.get(id).name === name;
+            
+            selectBtn.disabled = !isValidSelection;
+            selectBtn.textContent = isValidSelection ? 'Select Technique' : 'Select a technique first';
+        }
+        
+        // Clear form function
+        function clearForm() {
+            document.getElementById('techniqueId').value = '';
+            document.getElementById('techniqueName').value = '';
+            document.getElementById('techniqueId').classList.remove('selected');
+            document.getElementById('techniqueName').classList.remove('selected');
+            document.getElementById('status').innerHTML = 
+                `<div class="info">Form cleared. Start typing in either field to search techniques.</div>`;
+            
+            // Update button state
+            updateSelectButtonState();
+        }
+        
+        // Handle form submission (send selection to parent window)
+        document.getElementById('techniqueForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const id = document.getElementById('techniqueId').value.trim();
+            const name = document.getElementById('techniqueName').value.trim();
+            
+            if (id && name && techniqueIdMap.has(id)) {
+                const technique = techniqueIdMap.get(id);
+                
+                // Send selection to parent window
+                if (window.parent && window.parent !== window) {
+                    window.parent.postMessage({
+                        type: 'techniqueSelected',
+                        id: technique.id,
+                        name: technique.name
+                    }, '*');
+                } else {
+                    // Fallback for when not in iframe
+                    alert(`Selected Technique:\nID: ${technique.id}\nName: ${technique.name}`);
+                }
+            } else {
+                alert('Please select a valid technique from the dropdown.');
+            }
+        });
+        
+        // Load techniques when page loads
+        document.addEventListener('DOMContentLoaded', loadTechniques);
+    </script>
+</body>
+</html>

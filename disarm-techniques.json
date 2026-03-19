@@ -1,0 +1,1957 @@
+[
+  {
+    "type": "technique",
+    "id": "T0002",
+    "name": "Facilitate State Propaganda"
+  },
+  {
+    "type": "technique",
+    "id": "T0003",
+    "name": "Leverage Existing Narratives"
+  },
+  {
+    "type": "technique",
+    "id": "T0004",
+    "name": "Develop Competing Narratives"
+  },
+  {
+    "type": "technique",
+    "id": "T0010",
+    "name": "Cultivate Ignorant Agents"
+  },
+  {
+    "type": "technique",
+    "id": "T0014",
+    "name": "Prepare Fundraising Campaigns"
+  },
+  {
+    "type": "technique",
+    "id": "T0014.001",
+    "name": "Raise Funds from Malign Actors"
+  },
+  {
+    "type": "technique",
+    "id": "T0014.002",
+    "name": "Raise Funds from Ignorant Agents"
+  },
+  {
+    "type": "technique",
+    "id": "T0015",
+    "name": "Create Hashtags and Search Artefacts"
+  },
+  {
+    "type": "technique",
+    "id": "T0015.001",
+    "name": "Use Existing Hashtag"
+  },
+  {
+    "type": "technique",
+    "id": "T0015.002",
+    "name": "Create New Hashtag"
+  },
+  {
+    "type": "technique",
+    "id": "T0016",
+    "name": "Create Clickbait"
+  },
+  {
+    "type": "technique",
+    "id": "T0017",
+    "name": "Conduct Fundraising"
+  },
+  {
+    "type": "technique",
+    "id": "T0017.001",
+    "name": "Conduct Crowdfunding Campaigns"
+  },
+  {
+    "type": "technique",
+    "id": "T0018",
+    "name": "Purchase Targeted Advertisements"
+  },
+  {
+    "type": "technique",
+    "id": "T0020",
+    "name": "Trial Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0022",
+    "name": "Leverage Conspiracy Theory Narratives"
+  },
+  {
+    "type": "technique",
+    "id": "T0022.001",
+    "name": "Amplify Existing Conspiracy Theory Narratives"
+  },
+  {
+    "type": "technique",
+    "id": "T0022.002",
+    "name": "Develop Original Conspiracy Theory Narratives"
+  },
+  {
+    "type": "technique",
+    "id": "T0023",
+    "name": "Distort Facts"
+  },
+  {
+    "type": "technique",
+    "id": "T0023.001",
+    "name": "Reframe Context"
+  },
+  {
+    "type": "technique",
+    "id": "T0023.002",
+    "name": "Edit Open-Source Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0029",
+    "name": "Online Polls"
+  },
+  {
+    "type": "technique",
+    "id": "T0039",
+    "name": "Bait Influencer"
+  },
+  {
+    "type": "technique",
+    "id": "T0040",
+    "name": "Demand Insurmountable Proof"
+  },
+  {
+    "type": "technique",
+    "id": "T0042",
+    "name": "Seed Kernel of Truth"
+  },
+  {
+    "type": "technique",
+    "id": "T0044",
+    "name": "Seed Distortions"
+  },
+  {
+    "type": "technique",
+    "id": "T0045",
+    "name": "Use Fake Experts"
+  },
+  {
+    "type": "technique",
+    "id": "T0046",
+    "name": "Use Search Engine Optimisation"
+  },
+  {
+    "type": "technique",
+    "id": "T0047",
+    "name": "Censor Social Media as a Political Force"
+  },
+  {
+    "type": "technique",
+    "id": "T0048",
+    "name": "Harass"
+  },
+  {
+    "type": "technique",
+    "id": "T0048.001",
+    "name": "Boycott/\"Cancel\" Opponents"
+  },
+  {
+    "type": "technique",
+    "id": "T0048.002",
+    "name": "Harass People Based on Identities"
+  },
+  {
+    "type": "technique",
+    "id": "T0048.003",
+    "name": "Threaten to Dox"
+  },
+  {
+    "type": "technique",
+    "id": "T0048.004",
+    "name": "Dox"
+  },
+  {
+    "type": "technique",
+    "id": "T0049",
+    "name": "Flood Information Space"
+  },
+  {
+    "type": "technique",
+    "id": "T0049.001",
+    "name": "Trolls Amplify and Manipulate"
+  },
+  {
+    "type": "technique",
+    "id": "T0049.002",
+    "name": "Flood Existing Hashtag"
+  },
+  {
+    "type": "technique",
+    "id": "T0049.003",
+    "name": "Bots Amplify via Automated Forwarding and Reposting"
+  },
+  {
+    "type": "technique",
+    "id": "T0049.004",
+    "name": "Utilise Spamoflauge"
+  },
+  {
+    "type": "technique",
+    "id": "T0049.005",
+    "name": "Conduct Swarming"
+  },
+  {
+    "type": "technique",
+    "id": "T0049.006",
+    "name": "Conduct Keyword Squatting"
+  },
+  {
+    "type": "technique",
+    "id": "T0049.007",
+    "name": "Inauthentic Sites Amplify News and Narratives"
+  },
+  {
+    "type": "technique",
+    "id": "T0049.008",
+    "name": "Generate Information Pollution"
+  },
+  {
+    "type": "technique",
+    "id": "T0057",
+    "name": "Organise Events"
+  },
+  {
+    "type": "technique",
+    "id": "T0057.001",
+    "name": "Pay for Physical Action"
+  },
+  {
+    "type": "technique",
+    "id": "T0057.002",
+    "name": "Conduct Symbolic Action"
+  },
+  {
+    "type": "technique",
+    "id": "T0059",
+    "name": "Play the Long Game"
+  },
+  {
+    "type": "technique",
+    "id": "T0060",
+    "name": "Continue to Amplify"
+  },
+  {
+    "type": "technique",
+    "id": "T0061",
+    "name": "Sell Merchandise"
+  },
+  {
+    "type": "technique",
+    "id": "T0065",
+    "name": "Prepare Physical Broadcast Capabilities"
+  },
+  {
+    "type": "technique",
+    "id": "T0066",
+    "name": "Degrade Adversary"
+  },
+  {
+    "type": "technique",
+    "id": "T0068",
+    "name": "Respond to Breaking News Event or Active Crisis"
+  },
+  {
+    "type": "technique",
+    "id": "T0072",
+    "name": "Segment Audiences"
+  },
+  {
+    "type": "technique",
+    "id": "T0072.001",
+    "name": "Geographic Segmentation"
+  },
+  {
+    "type": "technique",
+    "id": "T0072.002",
+    "name": "Demographic Segmentation"
+  },
+  {
+    "type": "technique",
+    "id": "T0072.003",
+    "name": "Economic Segmentation"
+  },
+  {
+    "type": "technique",
+    "id": "T0072.004",
+    "name": "Psychographic Segmentation"
+  },
+  {
+    "type": "technique",
+    "id": "T0072.005",
+    "name": "Political Segmentation"
+  },
+  {
+    "type": "technique",
+    "id": "T0073",
+    "name": "Determine Target Audiences"
+  },
+  {
+    "type": "technique",
+    "id": "T0074",
+    "name": "Determine Strategic Ends"
+  },
+  {
+    "type": "technique",
+    "id": "T0074.001",
+    "name": "Geopolitical Advantage"
+  },
+  {
+    "type": "technique",
+    "id": "T0074.002",
+    "name": "Domestic Political Advantage"
+  },
+  {
+    "type": "technique",
+    "id": "T0074.003",
+    "name": "Economic Advantage"
+  },
+  {
+    "type": "technique",
+    "id": "T0074.004",
+    "name": "Ideological Advantage"
+  },
+  {
+    "type": "technique",
+    "id": "T0075",
+    "name": "Dismiss"
+  },
+  {
+    "type": "technique",
+    "id": "T0075.001",
+    "name": "Discredit Credible Sources"
+  },
+  {
+    "type": "technique",
+    "id": "T0076",
+    "name": "Distort"
+  },
+  {
+    "type": "technique",
+    "id": "T0077",
+    "name": "Distract"
+  },
+  {
+    "type": "technique",
+    "id": "T0078",
+    "name": "Dismay"
+  },
+  {
+    "type": "technique",
+    "id": "T0079",
+    "name": "Divide"
+  },
+  {
+    "type": "technique",
+    "id": "T0080",
+    "name": "Map Target Audience Information Environment"
+  },
+  {
+    "type": "technique",
+    "id": "T0080.001",
+    "name": "Monitor Social Media Analytics"
+  },
+  {
+    "type": "technique",
+    "id": "T0080.002",
+    "name": "Evaluate Media Surveys"
+  },
+  {
+    "type": "technique",
+    "id": "T0080.003",
+    "name": "Identify Trending Topics/Hashtags"
+  },
+  {
+    "type": "technique",
+    "id": "T0080.004",
+    "name": "Conduct Web Traffic Analysis"
+  },
+  {
+    "type": "technique",
+    "id": "T0080.005",
+    "name": "Assess Degree/Type of Media Access"
+  },
+  {
+    "type": "technique",
+    "id": "T0081",
+    "name": "Identify Social and Technical Vulnerabilities"
+  },
+  {
+    "type": "technique",
+    "id": "T0081.001",
+    "name": "Find Echo Chambers"
+  },
+  {
+    "type": "technique",
+    "id": "T0081.002",
+    "name": "Identify Data Voids"
+  },
+  {
+    "type": "technique",
+    "id": "T0081.003",
+    "name": "Identify Existing Prejudices"
+  },
+  {
+    "type": "technique",
+    "id": "T0081.004",
+    "name": "Identify Existing Fissures"
+  },
+  {
+    "type": "technique",
+    "id": "T0081.005",
+    "name": "Identify Existing Conspiracy Narratives/Suspicions"
+  },
+  {
+    "type": "technique",
+    "id": "T0081.006",
+    "name": "Identify Wedge Issues"
+  },
+  {
+    "type": "technique",
+    "id": "T0081.007",
+    "name": "Identify Target Audience Adversaries"
+  },
+  {
+    "type": "technique",
+    "id": "T0081.008",
+    "name": "Identify Media System Vulnerabilities"
+  },
+  {
+    "type": "technique",
+    "id": "T0082",
+    "name": "Develop New Narratives"
+  },
+  {
+    "type": "technique",
+    "id": "T0083",
+    "name": "Integrate Target Audience Vulnerabilities into Narrative"
+  },
+  {
+    "type": "technique",
+    "id": "T0084",
+    "name": "Reuse Existing Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0084.001",
+    "name": "Use Copypasta"
+  },
+  {
+    "type": "technique",
+    "id": "T0084.002",
+    "name": "Plagiarise Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0084.003",
+    "name": "Deceptively Labelled or Translated"
+  },
+  {
+    "type": "technique",
+    "id": "T0084.004",
+    "name": "Appropriate Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0085",
+    "name": "Develop Text-Based Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0085.001",
+    "name": "Develop AI-Generated Text"
+  },
+  {
+    "type": "technique",
+    "id": "T0085.003",
+    "name": "Develop Inauthentic News Articles"
+  },
+  {
+    "type": "technique",
+    "id": "T0085.004",
+    "name": "Develop Document"
+  },
+  {
+    "type": "technique",
+    "id": "T0085.005",
+    "name": "Develop Book"
+  },
+  {
+    "type": "technique",
+    "id": "T0085.006",
+    "name": "Develop Opinion Article"
+  },
+  {
+    "type": "technique",
+    "id": "T0085.007",
+    "name": "Create Fake Research"
+  },
+  {
+    "type": "technique",
+    "id": "T0085.008",
+    "name": "Machine Translated Text"
+  },
+  {
+    "type": "technique",
+    "id": "T0086",
+    "name": "Develop Image-Based Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0086.001",
+    "name": "Develop Memes"
+  },
+  {
+    "type": "technique",
+    "id": "T0086.002",
+    "name": "Develop AI-Generated Images (Deepfakes)"
+  },
+  {
+    "type": "technique",
+    "id": "T0086.003",
+    "name": "Deceptively Edit Images (Cheap Fakes)"
+  },
+  {
+    "type": "technique",
+    "id": "T0086.004",
+    "name": "Aggregate Information into Evidence Collages"
+  },
+  {
+    "type": "technique",
+    "id": "T0087",
+    "name": "Develop Video-Based Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0087.001",
+    "name": "Develop AI-Generated Videos (Deepfakes)"
+  },
+  {
+    "type": "technique",
+    "id": "T0087.002",
+    "name": "Deceptively Edit Video (Cheap Fakes)"
+  },
+  {
+    "type": "technique",
+    "id": "T0088",
+    "name": "Develop Audio-Based Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0088.001",
+    "name": "Develop AI-Generated Audio (Deepfakes)"
+  },
+  {
+    "type": "technique",
+    "id": "T0088.002",
+    "name": "Deceptively Edit Audio (Cheap Fakes)"
+  },
+  {
+    "type": "technique",
+    "id": "T0089",
+    "name": "Obtain Private Documents"
+  },
+  {
+    "type": "technique",
+    "id": "T0089.001",
+    "name": "Obtain Authentic Documents"
+  },
+  {
+    "type": "technique",
+    "id": "T0089.003",
+    "name": "Alter Authentic Documents"
+  },
+  {
+    "type": "technique",
+    "id": "T0091",
+    "name": "Recruit Malign Actors"
+  },
+  {
+    "type": "technique",
+    "id": "T0091.001",
+    "name": "Recruit Contractors"
+  },
+  {
+    "type": "technique",
+    "id": "T0091.002",
+    "name": "Recruit Partisans"
+  },
+  {
+    "type": "technique",
+    "id": "T0091.003",
+    "name": "Enlist Troll Accounts"
+  },
+  {
+    "type": "technique",
+    "id": "T0092",
+    "name": "Build Network"
+  },
+  {
+    "type": "technique",
+    "id": "T0092.001",
+    "name": "Create Organisations"
+  },
+  {
+    "type": "technique",
+    "id": "T0092.002",
+    "name": "Use Follow Trains"
+  },
+  {
+    "type": "technique",
+    "id": "T0092.003",
+    "name": "Create Community or Sub-Group"
+  },
+  {
+    "type": "technique",
+    "id": "T0093",
+    "name": "Acquire/Recruit Network"
+  },
+  {
+    "type": "technique",
+    "id": "T0093.001",
+    "name": "Fund Proxies"
+  },
+  {
+    "type": "technique",
+    "id": "T0093.002",
+    "name": "Acquire Botnets"
+  },
+  {
+    "type": "technique",
+    "id": "T0094",
+    "name": "Infiltrate Existing Networks"
+  },
+  {
+    "type": "technique",
+    "id": "T0094.001",
+    "name": "Identify Susceptible Targets in Networks"
+  },
+  {
+    "type": "technique",
+    "id": "T0094.002",
+    "name": "Utilise Butterfly Attacks"
+  },
+  {
+    "type": "technique",
+    "id": "T0095",
+    "name": "Develop Owned Media Assets"
+  },
+  {
+    "type": "technique",
+    "id": "T0096",
+    "name": "Leverage Content Farms"
+  },
+  {
+    "type": "technique",
+    "id": "T0096.001",
+    "name": "Create Content Farms"
+  },
+  {
+    "type": "technique",
+    "id": "T0096.002",
+    "name": "Outsource Content Creation to External Organisations"
+  },
+  {
+    "type": "technique",
+    "id": "T0097",
+    "name": "Present Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.100",
+    "name": "Individual Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.101",
+    "name": "Local Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.102",
+    "name": "Journalist Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.103",
+    "name": "Activist Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.104",
+    "name": "Hacktivist Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.105",
+    "name": "Military Personnel Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.106",
+    "name": "Recruiter Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.107",
+    "name": "Researcher Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.108",
+    "name": "Expert Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.109",
+    "name": "Romantic Suitor Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.110",
+    "name": "Party Official Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.111",
+    "name": "Government Official Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.112",
+    "name": "Government Employee Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.200",
+    "name": "Institutional Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.201",
+    "name": "Local Institution Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.202",
+    "name": "News Outlet Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.203",
+    "name": "Fact Checking Organisation Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.204",
+    "name": "Think Tank Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.205",
+    "name": "Business Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.206",
+    "name": "Government Institution Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.207",
+    "name": "NGO Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0097.208",
+    "name": "Social Cause Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0098",
+    "name": "Establish Inauthentic News Sites"
+  },
+  {
+    "type": "technique",
+    "id": "T0098.001",
+    "name": "Create Inauthentic News Sites"
+  },
+  {
+    "type": "technique",
+    "id": "T0098.002",
+    "name": "Leverage Existing Inauthentic News Sites"
+  },
+  {
+    "type": "technique",
+    "id": "T0100",
+    "name": "Co-Opt Trusted Sources"
+  },
+  {
+    "type": "technique",
+    "id": "T0100.001",
+    "name": "Co-Opt Trusted Individuals"
+  },
+  {
+    "type": "technique",
+    "id": "T0100.002",
+    "name": "Co-Opt Grassroots Groups"
+  },
+  {
+    "type": "technique",
+    "id": "T0100.003",
+    "name": "Co-Opt Influencers"
+  },
+  {
+    "type": "technique",
+    "id": "T0101",
+    "name": "Create Localised Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0102",
+    "name": "Leverage Echo Chambers/Filter Bubbles"
+  },
+  {
+    "type": "technique",
+    "id": "T0102.001",
+    "name": "Use Existing Echo Chambers/Filter Bubbles"
+  },
+  {
+    "type": "technique",
+    "id": "T0102.002",
+    "name": "Create Echo Chambers/Filter Bubbles"
+  },
+  {
+    "type": "technique",
+    "id": "T0102.003",
+    "name": "Exploit Data Voids"
+  },
+  {
+    "type": "technique",
+    "id": "T0107",
+    "name": "Bookmarking and Content Curation"
+  },
+  {
+    "type": "technique",
+    "id": "T0109",
+    "name": "Consumer Review Networks"
+  },
+  {
+    "type": "technique",
+    "id": "T0110",
+    "name": "Formal Diplomatic Channels"
+  },
+  {
+    "type": "technique",
+    "id": "T0111",
+    "name": "Traditional Media"
+  },
+  {
+    "type": "technique",
+    "id": "T0111.001",
+    "name": "TV"
+  },
+  {
+    "type": "technique",
+    "id": "T0111.002",
+    "name": "Newspaper"
+  },
+  {
+    "type": "technique",
+    "id": "T0111.003",
+    "name": "Radio"
+  },
+  {
+    "type": "technique",
+    "id": "T0113",
+    "name": "Employ Commercial Analytic Firms"
+  },
+  {
+    "type": "technique",
+    "id": "T0114",
+    "name": "Deliver Ads"
+  },
+  {
+    "type": "technique",
+    "id": "T0114.001",
+    "name": "Social Media"
+  },
+  {
+    "type": "technique",
+    "id": "T0114.002",
+    "name": "Traditional Media"
+  },
+  {
+    "type": "technique",
+    "id": "T0115",
+    "name": "Post Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0115.001",
+    "name": "Share Memes"
+  },
+  {
+    "type": "technique",
+    "id": "T0115.002",
+    "name": "Post Violative Content to Provoke Takedown and Backlash"
+  },
+  {
+    "type": "technique",
+    "id": "T0115.003",
+    "name": "One-Way Direct Posting"
+  },
+  {
+    "type": "technique",
+    "id": "T0116",
+    "name": "Comment or Reply on Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0116.001",
+    "name": "Post Inauthentic Social Media Comment"
+  },
+  {
+    "type": "technique",
+    "id": "T0117",
+    "name": "Attract Traditional Media"
+  },
+  {
+    "type": "technique",
+    "id": "T0118",
+    "name": "Amplify Existing Narrative"
+  },
+  {
+    "type": "technique",
+    "id": "T0119",
+    "name": "Cross-Posting"
+  },
+  {
+    "type": "technique",
+    "id": "T0119.001",
+    "name": "Post across Groups"
+  },
+  {
+    "type": "technique",
+    "id": "T0119.002",
+    "name": "Post across Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0119.003",
+    "name": "Post across Disciplines"
+  },
+  {
+    "type": "technique",
+    "id": "T0120",
+    "name": "Incentivize Sharing"
+  },
+  {
+    "type": "technique",
+    "id": "T0120.001",
+    "name": "Use Affiliate Marketing Programmes"
+  },
+  {
+    "type": "technique",
+    "id": "T0120.002",
+    "name": "Use Contests and Prizes"
+  },
+  {
+    "type": "technique",
+    "id": "T0121",
+    "name": "Manipulate Platform Algorithm"
+  },
+  {
+    "type": "technique",
+    "id": "T0121.001",
+    "name": "Bypass Content Blocking"
+  },
+  {
+    "type": "technique",
+    "id": "T0122",
+    "name": "Direct Users to Alternative Platforms"
+  },
+  {
+    "type": "technique",
+    "id": "T0123",
+    "name": "Control Information Environment through Offensive Cyberspace Operations"
+  },
+  {
+    "type": "technique",
+    "id": "T0123.001",
+    "name": "Delete Opposing Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0123.002",
+    "name": "Block Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0123.003",
+    "name": "Destroy Information Generation Capabilities"
+  },
+  {
+    "type": "technique",
+    "id": "T0123.004",
+    "name": "Conduct Server Redirect"
+  },
+  {
+    "type": "technique",
+    "id": "T0124",
+    "name": "Suppress Opposition"
+  },
+  {
+    "type": "technique",
+    "id": "T0124.001",
+    "name": "Report Non-Violative Opposing Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0124.002",
+    "name": "Goad People into Harmful Action (Stop Hitting Yourself)"
+  },
+  {
+    "type": "technique",
+    "id": "T0124.003",
+    "name": "Exploit Platform TOS/Content Moderation"
+  },
+  {
+    "type": "technique",
+    "id": "T0125",
+    "name": "Platform Filtering"
+  },
+  {
+    "type": "technique",
+    "id": "T0126",
+    "name": "Encourage Attendance at Events"
+  },
+  {
+    "type": "technique",
+    "id": "T0126.001",
+    "name": "Call to Action to Attend"
+  },
+  {
+    "type": "technique",
+    "id": "T0126.002",
+    "name": "Facilitate Logistics or Support for Attendance"
+  },
+  {
+    "type": "technique",
+    "id": "T0127",
+    "name": "Physical Violence"
+  },
+  {
+    "type": "technique",
+    "id": "T0127.001",
+    "name": "Conduct Physical Violence"
+  },
+  {
+    "type": "technique",
+    "id": "T0127.002",
+    "name": "Encourage Physical Violence"
+  },
+  {
+    "type": "technique",
+    "id": "T0128",
+    "name": "Conceal Information Assets"
+  },
+  {
+    "type": "technique",
+    "id": "T0128.001",
+    "name": "Use Pseudonyms"
+  },
+  {
+    "type": "technique",
+    "id": "T0128.002",
+    "name": "Conceal Network Identity"
+  },
+  {
+    "type": "technique",
+    "id": "T0128.003",
+    "name": "Distance Reputable Individuals from Operation"
+  },
+  {
+    "type": "technique",
+    "id": "T0128.004",
+    "name": "Launder Information Assets"
+  },
+  {
+    "type": "technique",
+    "id": "T0128.005",
+    "name": "Change Names of Information Assets"
+  },
+  {
+    "type": "technique",
+    "id": "T0129",
+    "name": "Conceal Operational Activity"
+  },
+  {
+    "type": "technique",
+    "id": "T0129.001",
+    "name": "Conceal Network Identity"
+  },
+  {
+    "type": "technique",
+    "id": "T0129.002",
+    "name": "Generate Content Unrelated to Narrative"
+  },
+  {
+    "type": "technique",
+    "id": "T0129.003",
+    "name": "Break Association with Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0129.004",
+    "name": "Delete URLs"
+  },
+  {
+    "type": "technique",
+    "id": "T0129.005",
+    "name": "Coordinate on Encrypted/Closed Networks"
+  },
+  {
+    "type": "technique",
+    "id": "T0129.006",
+    "name": "Deny Involvement"
+  },
+  {
+    "type": "technique",
+    "id": "T0129.007",
+    "name": "Delete Accounts/Account Activity"
+  },
+  {
+    "type": "technique",
+    "id": "T0129.009",
+    "name": "Remove Post Origins"
+  },
+  {
+    "type": "technique",
+    "id": "T0129.010",
+    "name": "Misattribute Activity"
+  },
+  {
+    "type": "technique",
+    "id": "T0130",
+    "name": "Conceal Infrastructure"
+  },
+  {
+    "type": "technique",
+    "id": "T0130.001",
+    "name": "Conceal Sponsorship"
+  },
+  {
+    "type": "technique",
+    "id": "T0130.002",
+    "name": "Utilise Bulletproof Hosting"
+  },
+  {
+    "type": "technique",
+    "id": "T0130.003",
+    "name": "Use Shell Organisations"
+  },
+  {
+    "type": "technique",
+    "id": "T0130.004",
+    "name": "Use Cryptocurrency"
+  },
+  {
+    "type": "technique",
+    "id": "T0130.005",
+    "name": "Obfuscate Payment"
+  },
+  {
+    "type": "technique",
+    "id": "T0131",
+    "name": "Exploit TOS/Content Moderation"
+  },
+  {
+    "type": "technique",
+    "id": "T0131.001",
+    "name": "Legacy Web Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0131.002",
+    "name": "Post Borderline Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0132",
+    "name": "Measure Performance"
+  },
+  {
+    "type": "technique",
+    "id": "T0132.001",
+    "name": "People Focused"
+  },
+  {
+    "type": "technique",
+    "id": "T0132.002",
+    "name": "Content Focused"
+  },
+  {
+    "type": "technique",
+    "id": "T0132.003",
+    "name": "View Focused"
+  },
+  {
+    "type": "technique",
+    "id": "T0133",
+    "name": "Measure Effectiveness"
+  },
+  {
+    "type": "technique",
+    "id": "T0133.001",
+    "name": "Behaviour Changes"
+  },
+  {
+    "type": "technique",
+    "id": "T0133.002",
+    "name": "Content"
+  },
+  {
+    "type": "technique",
+    "id": "T0133.003",
+    "name": "Awareness"
+  },
+  {
+    "type": "technique",
+    "id": "T0133.004",
+    "name": "Knowledge"
+  },
+  {
+    "type": "technique",
+    "id": "T0133.005",
+    "name": "Action/Attitude"
+  },
+  {
+    "type": "technique",
+    "id": "T0134",
+    "name": "Measure Effectiveness Indicators (or KPIs)"
+  },
+  {
+    "type": "technique",
+    "id": "T0134.001",
+    "name": "Message Reach"
+  },
+  {
+    "type": "technique",
+    "id": "T0134.002",
+    "name": "Social Media Engagement"
+  },
+  {
+    "type": "technique",
+    "id": "T0135",
+    "name": "Undermine"
+  },
+  {
+    "type": "technique",
+    "id": "T0135.001",
+    "name": "Smear"
+  },
+  {
+    "type": "technique",
+    "id": "T0135.002",
+    "name": "Thwart"
+  },
+  {
+    "type": "technique",
+    "id": "T0135.003",
+    "name": "Subvert"
+  },
+  {
+    "type": "technique",
+    "id": "T0135.004",
+    "name": "Polarise"
+  },
+  {
+    "type": "technique",
+    "id": "T0136",
+    "name": "Cultivate Support"
+  },
+  {
+    "type": "technique",
+    "id": "T0136.001",
+    "name": "Defend Reputaton"
+  },
+  {
+    "type": "technique",
+    "id": "T0136.002",
+    "name": "Justify Action"
+  },
+  {
+    "type": "technique",
+    "id": "T0136.003",
+    "name": "Energise Supporters"
+  },
+  {
+    "type": "technique",
+    "id": "T0136.004",
+    "name": "Boost Reputation"
+  },
+  {
+    "type": "technique",
+    "id": "T0136.005",
+    "name": "Cultvate Support for Initiative"
+  },
+  {
+    "type": "technique",
+    "id": "T0136.006",
+    "name": "Cultivate Support for Ally"
+  },
+  {
+    "type": "technique",
+    "id": "T0136.007",
+    "name": "Recruit Members"
+  },
+  {
+    "type": "technique",
+    "id": "T0136.008",
+    "name": "Increase Prestige"
+  },
+  {
+    "type": "technique",
+    "id": "T0137",
+    "name": "Make Money"
+  },
+  {
+    "type": "technique",
+    "id": "T0137.001",
+    "name": "Generate Ad Revenue"
+  },
+  {
+    "type": "technique",
+    "id": "T0137.002",
+    "name": "Scam"
+  },
+  {
+    "type": "technique",
+    "id": "T0137.003",
+    "name": "Raise Funds"
+  },
+  {
+    "type": "technique",
+    "id": "T0137.004",
+    "name": "Sell Items under False Pretences"
+  },
+  {
+    "type": "technique",
+    "id": "T0137.005",
+    "name": "Extort"
+  },
+  {
+    "type": "technique",
+    "id": "T0137.006",
+    "name": "Manipulate Stocks"
+  },
+  {
+    "type": "technique",
+    "id": "T0138",
+    "name": "Motivate to Act"
+  },
+  {
+    "type": "technique",
+    "id": "T0138.001",
+    "name": "Encourage"
+  },
+  {
+    "type": "technique",
+    "id": "T0138.002",
+    "name": "Provoke"
+  },
+  {
+    "type": "technique",
+    "id": "T0138.003",
+    "name": "Compel"
+  },
+  {
+    "type": "technique",
+    "id": "T0139",
+    "name": "Dissuade from Acting"
+  },
+  {
+    "type": "technique",
+    "id": "T0139.001",
+    "name": "Discourage"
+  },
+  {
+    "type": "technique",
+    "id": "T0139.002",
+    "name": "Silence"
+  },
+  {
+    "type": "technique",
+    "id": "T0139.003",
+    "name": "Deter"
+  },
+  {
+    "type": "technique",
+    "id": "T0140",
+    "name": "Cause Harm"
+  },
+  {
+    "type": "technique",
+    "id": "T0140.001",
+    "name": "Defame"
+  },
+  {
+    "type": "technique",
+    "id": "T0140.002",
+    "name": "Intimidate"
+  },
+  {
+    "type": "technique",
+    "id": "T0140.003",
+    "name": "Spread Hate"
+  },
+  {
+    "type": "technique",
+    "id": "T0143",
+    "name": "Persona Legitimacy"
+  },
+  {
+    "type": "technique",
+    "id": "T0143.001",
+    "name": "Authentic Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0143.002",
+    "name": "Fabricated Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0143.003",
+    "name": "Impersonated Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0143.004",
+    "name": "Parody Persona"
+  },
+  {
+    "type": "technique",
+    "id": "T0144",
+    "name": "Persona Legitimacy Evidence"
+  },
+  {
+    "type": "technique",
+    "id": "T0144.001",
+    "name": "Present Persona across Platforms"
+  },
+  {
+    "type": "technique",
+    "id": "T0144.002",
+    "name": "Persona Template"
+  },
+  {
+    "type": "technique",
+    "id": "T0145",
+    "name": "Establish Account Imagery"
+  },
+  {
+    "type": "technique",
+    "id": "T0145.001",
+    "name": "Copy Account Imagery"
+  },
+  {
+    "type": "technique",
+    "id": "T0145.002",
+    "name": "AI-Generated Account Imagery"
+  },
+  {
+    "type": "technique",
+    "id": "T0145.003",
+    "name": "Animal Account Imagery"
+  },
+  {
+    "type": "technique",
+    "id": "T0145.004",
+    "name": "Scenery Account Imagery"
+  },
+  {
+    "type": "technique",
+    "id": "T0145.005",
+    "name": "Illustrated Character Account Imagery"
+  },
+  {
+    "type": "technique",
+    "id": "T0145.006",
+    "name": "Attractive Person Account Imagery"
+  },
+  {
+    "type": "technique",
+    "id": "T0145.007",
+    "name": "Stock Image Account Imagery"
+  },
+  {
+    "type": "technique",
+    "id": "T0146",
+    "name": "Account Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0146.001",
+    "name": "Free Account Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0146.002",
+    "name": "Paid Account Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0146.003",
+    "name": "Verified Account Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0146.004",
+    "name": "Administrator Account Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0146.005",
+    "name": "Lookalike Account ID"
+  },
+  {
+    "type": "technique",
+    "id": "T0146.006",
+    "name": "Open Access Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0146.007",
+    "name": "Automated Account Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0147",
+    "name": "Software Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0147.001",
+    "name": "Game Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0147.002",
+    "name": "Game Mod Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0147.003",
+    "name": "Malware Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0147.004",
+    "name": "Mobile App Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0148",
+    "name": "Financial Instrument"
+  },
+  {
+    "type": "technique",
+    "id": "T0148.001",
+    "name": "Online Banking Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0148.002",
+    "name": "Bank Account Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0148.003",
+    "name": "Payment Processing Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0148.004",
+    "name": "Payment Processing Capability"
+  },
+  {
+    "type": "technique",
+    "id": "T0148.005",
+    "name": "Subscription Processing Capability"
+  },
+  {
+    "type": "technique",
+    "id": "T0148.006",
+    "name": "Crowdfunding Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0148.007",
+    "name": "eCommerce Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0148.008",
+    "name": "Cryptocurrency Exchange Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0148.009",
+    "name": "Cryptocurrency Wallet"
+  },
+  {
+    "type": "technique",
+    "id": "T0149",
+    "name": "Online Infrastructure"
+  },
+  {
+    "type": "technique",
+    "id": "T0149.001",
+    "name": "Domain Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0149.002",
+    "name": "Email Domain Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0149.003",
+    "name": "Lookalike Domain"
+  },
+  {
+    "type": "technique",
+    "id": "T0149.004",
+    "name": "Redirecting Domain Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0149.005",
+    "name": "Server Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0149.006",
+    "name": "IP Address Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0149.007",
+    "name": "VPN Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0149.008",
+    "name": "Proxy IP Address Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0149.009",
+    "name": "Internet Connected Physical Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0150",
+    "name": "Asset Origin"
+  },
+  {
+    "type": "technique",
+    "id": "T0150.001",
+    "name": "Newly Created Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0150.002",
+    "name": "Dormant Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0150.003",
+    "name": "Pre-Existing Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0150.004",
+    "name": "Repurposed Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0150.005",
+    "name": "Compromised Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0150.006",
+    "name": "Purchased Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0150.007",
+    "name": "Rented Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0150.008",
+    "name": "Bulk Created Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0151",
+    "name": "Digital Community Hosting Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.001",
+    "name": "Social Media Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.002",
+    "name": "Online Community Group"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.003",
+    "name": "Online Community Page"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.004",
+    "name": "Chat Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.005",
+    "name": "Chat Community Server"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.006",
+    "name": "Chat Room"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.007",
+    "name": "Chat Broadcast Group"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.008",
+    "name": "Microblogging Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.009",
+    "name": "Legacy Online Forum Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.010",
+    "name": "Community Forum Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.011",
+    "name": "Community Sub-Forum"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.012",
+    "name": "Image Board Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.013",
+    "name": "Question and Answer Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.014",
+    "name": "Comments Section"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.015",
+    "name": "Online Game Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.016",
+    "name": "Online Game Session"
+  },
+  {
+    "type": "technique",
+    "id": "T0151.017",
+    "name": "Dating Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0152",
+    "name": "Digital Content Hosting Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0152.001",
+    "name": "Blogging Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0152.002",
+    "name": "Blog Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0152.003",
+    "name": "Website Hosting Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0152.004",
+    "name": "Website Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0152.005",
+    "name": "Paste Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0152.006",
+    "name": "Video Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0152.007",
+    "name": "Audio Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0152.008",
+    "name": "Live Streaming Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0152.009",
+    "name": "Software Delivery Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0152.010",
+    "name": "File Hosting Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0152.011",
+    "name": "Wiki Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0152.012",
+    "name": "Subscription Service Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0153",
+    "name": "Digital Content Delivery Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0153.001",
+    "name": "Email Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0153.002",
+    "name": "Link Shortening Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0153.003",
+    "name": "Shortened Link Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0153.004",
+    "name": "QR Code Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0153.005",
+    "name": "Online Advertising Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0153.006",
+    "name": "Content Recommendation Algorithm"
+  },
+  {
+    "type": "technique",
+    "id": "T0153.007",
+    "name": "Direct Messaging"
+  },
+  {
+    "type": "technique",
+    "id": "T0154",
+    "name": "Digital Content Creation Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0154.001",
+    "name": "AI LLM Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0154.002",
+    "name": "AI Media Platform"
+  },
+  {
+    "type": "technique",
+    "id": "T0155",
+    "name": "Gated Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0155.001",
+    "name": "Password Gated Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0155.002",
+    "name": "Invite Gated Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0155.003",
+    "name": "Approval Gated Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0155.004",
+    "name": "Geoblocked Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0155.005",
+    "name": "Paid Access Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0155.006",
+    "name": "Subscription Access Asset"
+  },
+  {
+    "type": "technique",
+    "id": "T0155.007",
+    "name": "Encrypted Communication Channel"
+  }
+]
