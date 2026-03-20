@@ -43,8 +43,12 @@ function buildIncidentJson() {
     const keyNarratives = [];
     const metaGroups = document.querySelectorAll('#meta-narratives-container .meta-narrative-group');
     metaGroups.forEach(group => {
-        const metaNarrative = (group.dataset.metaText || '').trim();
-        if (!metaNarrative) return;
+        const metaPlainText = (group.dataset.metaText || '').trim();
+        if (!metaPlainText) return;
+        const metaCode = (group.dataset.metaCode || '').trim();
+        const metaNarrative = (typeof buildPrefixedMetaNarrativeText === 'function')
+            ? (buildPrefixedMetaNarrativeText(metaPlainText, metaCode) || metaPlainText)
+            : metaPlainText;
 
         const subNarratives = [];
         group.querySelectorAll('.sub-narrative-text').forEach(el => {
