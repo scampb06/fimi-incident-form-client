@@ -17,7 +17,7 @@ This repository is the browser-based front end. Server-side Azure endpoints are 
 1. Fork and clone this repository.
 2. Adjust configuration in `config.js` to communicate with the server (see below).
 3. Commit and push your changes to GitHub. 
-4. In GitHub under Settings>Pages select "Deploy from a branch" for the Source, select branch "Main" and folder "/root", and press Save. GitHub will take a few minutes to build your site and return with "Your site is now live at ...".
+4. In GitHub under Settings>Pages select "Deploy from a branch" for the Source, select branch "Main" and folder "/root", and press Save. GitHub will take a few minutes to build your site and report "Your site is now live at ...".
 5. Access your site.
 
 ## Configuration
