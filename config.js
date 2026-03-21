@@ -6,7 +6,7 @@
 // ============================================================
 // Azure Configuration
 // ============================================================
-window.AZURE_APP_NAME = 'fimi-incident-form-server-pt';
+window.AZURE_APP_NAME = 'fimi-incident-form-server-pt2';
 window.AZURE_BASE_URL = `https://${window.AZURE_APP_NAME}.azurewebsites.net`;
 
 // ============================================================
