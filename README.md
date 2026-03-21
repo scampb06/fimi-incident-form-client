@@ -2,7 +2,7 @@
 
 Client-side web application for creating structured FIMI incident reports, enriching URL evidence workflows, and exporting reports to JSON.
 
-This repository is the browser-based front end. Server-side Azure endpoints are hosted separately in a private repository and are summarized in [documentation/azure-endpoints-overview.md](documentation/azure-endpoints-overview.md).
+This repository is the browser-based front end. Server-side Azure endpoints are hosted separately in a [private repository](https://github.com/scampb06/fimi-incident-form-server) and are summarized in [documentation/azure-endpoints-overview.md](documentation/azure-endpoints-overview.md).
 
 ## What this app does
 
