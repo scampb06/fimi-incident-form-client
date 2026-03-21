@@ -1,18 +1,19 @@
 /**
  * Global Configuration and State Variables
  * Contains all global variables, counters, and configuration used across modules
+ * Please obtain the values for AZURE_APP_NAME and GSHEETS_SERVICE_ACCOUNT_EMAIL from your administrator and set them below
  */
 
 // ============================================================
 // Azure Configuration
 // ============================================================
-window.AZURE_APP_NAME = 'fimi-incident-form-server-pt2';
+window.AZURE_APP_NAME = '<AZURE_APP_NAME>'; // Set this to your Azure App Service name (without .azurewebsites.net)
 window.AZURE_BASE_URL = `https://${window.AZURE_APP_NAME}.azurewebsites.net`;
 
 // ============================================================
 // Google Sheets Configuration
 // ============================================================
-window.GSHEETS_SERVICE_ACCOUNT_EMAIL = 'gsheets-service@bright-lattice-490523-c6.iam.gserviceaccount.com';
+window.GSHEETS_SERVICE_ACCOUNT_EMAIL = '<GSHEETS_SERVICE_ACCOUNT_EMAIL>'; // Service account email for Google Sheets API
 
 // Global state variables for form data
 let objectivesList = [];
